@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    height: 90vw;
+  }
+}
+@media (max-width: 600px) {
+  #comments {
+    width: 60vw;
+  }
+}
+
+body {
+  background-image: url(https://i.imgur.com/cEliNhb.jpg);
+
+  backdrop-filter: blur(5px);
+
+  padding: 80px;
+}
+
+#survey {
+  border-radius: 20px 20px 20px 20px;
+  width: auto;
+  height: 100%;
+  background: #2c75ff;
+  font-size: 25px;
+  background-color: rgba(0, 0, 255, 0.4);
+  color: #ffc1cc;
+}
+
+#survey-content {
+  padding: 50px;
+}
+
+#button {
+  width: 70%;
+}
+
+#name {
+  width: 70%;
+}
+
+#email {
+  width: 70%;
+}
+
+#number {
+  width: 70%;
+}
+
+#dropdown {
+  width: 70%;
+}
+
+.bals {
+  font-family: Roboto, san-serif, fantasy;
+  font-weight: lighter;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+#header {
+  text-align: center;
+  font-family: courier;
+  font-weight: lighter;
+}
+
+#button {
+  font-family: Oswald, san-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+  border-radius: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+#button:link {
+  background-color: orange;
+}
+
+#button:hover {
+  background-color: orange;
+}
+
+#button:active {
+  background-color: blue;
+}

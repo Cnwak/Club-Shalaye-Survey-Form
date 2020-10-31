@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=https://fonts.google.com/specimen/Oswald?sidebar.open&selection.family=Oswald:wght@200>
+<link href=https://fonts.google.com/specimen/Roboto+Mono?sidebar.open&selection.family=Roboto+Mono>
+<link rel="stylesheet" href="style.css">
+
+  <title>
+    Survey form
+  </title>
+</head>
+
+
+
+<body>
+  
+
+  <main>
+    <head>
+      <h1>Club Shalaye's Survey Form</h1>
+      <h3 id=header> <em>Thank you for helping us improve customer satisfaction</em></h3>
+    </head>
+    
+    <form id=survey>
+      <br>
+      <div id=survey-content>
+      <label id=name-label for=name class=bals >Name</label><br>
+             <input type=text id=name placeholder="Enter your name" name=name  title="Please enter your name"></input><br><br>
+      
+      <label id=email-label for=name class=bals>Email</label><br>
+             <input type=email id=email placeholder="Enter your email address" name=email title="Please enter your email address"</input><br><br>
+      
+       <label id=number-label for=name class=bals>Age(Optonal)</label><br>
+             <input type=number id=number placeholder="Enter your age" name=number title="Please enter your age" min=0 max=100></input><br><br>
+    
+     <label class=bals>How can we improve?</label><br>
+             <select placeholder="Please pick an option" id = "dropdown">
+               <option value = "2" disabled selected hidden>Please pick an option</option>
+               <option value = "2">Free drinks for women on weekdays</option>
+               <option value = "4">Karaeoke Fridays</option>
+               <option value = "1">Naira Marley exlusive Tuesdays</option>
+               <option value = "3">Serve Nkwobi</option>
+             </select>
+    
+    <div id=radio>
+   
+      <p class=bals>What songs should we play more of?</p>
+      <label>       
+        <input type=radio name=this-or-that id=burna-boy class=radio>Burna Boy 
+      </label><br>
+      
+       <label>       
+        <input type=radio name=this-or-that id=2pac class=radio>2Pac
+      </label><br>
+      
+       <label>       
+        <input type=radio name=this-or-that id=tope-alabi class=radio>Tope Alabi
+      </label>
+      
+    </div><br>
+    
+    <div class="check-div" >
+      <p class=bals>What food choices would you like more of while you <i>Boogey</i>?</p>
+       <label>       
+        <input type=checkbox name=that-or-this id="gizzard" value=gizzard>Gizzard
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="asun" value=asun>Asun
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="peppersoup" value=peppersoup>Peppersoup
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="peppersoup" value=peppersoup>Peppersoup
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="pizza" value=pizza>Pizza
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="shawarma" value=shawarma>Shawarma
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="amalaandewedu" value=amalaandewedu>Amala and Ewedu
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="nkwobi" value=nkwobi>Nkwobi
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="smallchops" value=smallchops>Assorted small chops
+      </label><br>
+      
+       <label>       
+        <input type=checkbox name=that-or-this id="beans" value=beans>Beans and Garri
+      </label><br>
+      
+       <label>       
+        <input type="checkbox" name=that-or-this id="bring" value="bring">Bring my own food
+      </label>
+      
+      
+    </div><br><br>
+    
+    <div>
+      <label for=comments class=bals> Any further suggestions?</label><br>
+      
+      <textarea id=comments name=comments cols=50%> I suggest...</textarea>
+    </div><br><br>
+    
+    <div>
+       <input id=button type=submit value=submit>
+    </div><br>
+    
+    </div>
+      
+     
+      
+    </form>
+  </main>
+
+
+
+</body>
+</html>
